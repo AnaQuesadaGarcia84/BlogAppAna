@@ -18,8 +18,8 @@ import { MatListModule } from '@angular/material/list';
 //Componentes
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { DefaultComponent } from './components/default/default.component';
-
-
+import { ListarPostsComponent } from './components/posts/listar-posts/listar-posts.component';
+import { CrearPostComponent } from './components/posts/crear-post/crear-post.component';
 
 
 @NgModule({
@@ -27,6 +27,8 @@ import { DefaultComponent } from './components/default/default.component';
     AppComponent,
     SidenavComponent,
     DefaultComponent,
+    ListarPostsComponent,
+    CrearPostComponent,
   ],
   imports: [
     BrowserModule,
