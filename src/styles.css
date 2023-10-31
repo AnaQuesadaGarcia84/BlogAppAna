@@ -1,4 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+body{
+    background-image: url('../src/assets/media/img/fondoblog.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+mat-card{
+    background-color: #add8e64b;
+}
